@@ -1,0 +1,135 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* PROFILE REVIEW CONTAINER START */
+.profile-review-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.profile-container {
+    margin-top: 100px;
+    background-color: #0d0d0d;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 47px;
+}
+
+.profile-container .img-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-container .img-holder .user-picture {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.profile-container .user-name {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-container .horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #3f3f3f;
+    margin-bottom: 20px;
+}
+
+.profile-container .attribute {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profile-container .attribute .copy {
+    font-size: 20px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.profile-container .attribute .user-website:hover {
+    text-decoration: none;
+}
+
+.profile-container .attribute .role {
+    font-size: 20px;
+    font-weight: 400;
+    color: #00a9ff;
+}
+
+.profile-container .attribute:last-child {
+    margin-bottom: 0;
+}
+
+/* PROFILE REVIEW CONTAINER FINISH */
+
+/* RESPONSIVE PROFILE REVIEW CONTAINER PAGE START */
+@media (max-width: 768px) {
+    .profile-review-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 20px;
+    }
+
+    .profile-container .img-holder .user-picture {
+        width: 120px;
+    }
+
+    .profile-container .attributes {
+        font-size: 16px;
+    }
+
+    .profile-container .attributes .copy {
+        font-size: 16px;
+    }
+
+    .profile-container .attributes .role {
+        font-size: 16px;
+    }
+}
+
+/* RESPONSIVE PROFILE REVIEW CONTAINER PAGE FINISH */

@@ -1,0 +1,36 @@
+/* BACK TO THE TOP BTN START */
+.back-to-the-top-btn {
+  color: #00a9ff;
+  background-color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 13px 26px;
+  opacity: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  border-radius: 100px;
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 9999; 
+  outline: none;
+  pointer-events: none;
+  border: 1px solid #00a9ff;
+  font-family: "Poppins", sans-serif;
+  transition: 0.4s;
+}
+
+.back-to-the-top-btn.active {
+  opacity: 0.7;
+  pointer-events: auto;
+}
+
+.back-to-the-top-btn.active:hover {
+  opacity: 1;
+}
+
+/* BACK TO THE TOP BTN FINISH */

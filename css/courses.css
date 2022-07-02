@@ -1,0 +1,260 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* COURSES PAGE */
+.courses-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.courses-section {
+  margin-top: 93px;
+  margin-bottom: 30px;
+  background-color: #0d0d0d;
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.courses-section .heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.courses-section .horizontal-line {
+  display: block;
+  background-color: #00a9ff;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.courses-section .course-search-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.courses-section .course-search-bar input {
+  display: block;
+  width: 100%;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #0d0d0d;
+  border: 1px solid #00a9ff;
+  border-radius: 100px;
+  box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.3),
+    inset 5px 5px 20px rgba(0, 0, 0, 0.3);
+  color: #00a9ff;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.courses-section .course-search-bar input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #00a9ff;
+}
+
+.courses-section .course-search-bar input:focus {
+  outline: none;
+}
+
+.courses-section .course-search-bar .course-search-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.courses-section .course-search-bar .course-search-btn img {
+  width: 24px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.courses-section .course {
+  display: block;
+  width: 100%;
+  height: 220px;
+  background-color: #262626;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+.courses-section .course:last-child {
+  margin-bottom: 0;
+}
+
+.courses-section .course .course-thumbnail {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #353535;
+  margin-right: 20px;
+}
+
+.courses-section .course .course-info .course-heading {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.courses-section .course .course-info .course-copy {
+  font-size: 16px;
+  font-weight: 400;
+  color: #bababa;
+  margin-bottom: 14px;
+  width: 750px;
+  height: 48px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.courses-section .course .get-course-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 5px 15px;
+  background-color: #00a9ff;
+  border-radius: 10px;
+  border: 1px solid #00a9ff;
+  color: #262626;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.courses-section .course .get-course-btn:hover {
+  background-color: transparent;
+  color: #00a9ff;
+}
+
+/* COURSES PAGE FINISH */
+
+/* RESPONSIVE COURSES PAGE */
+@media (max-width: 1200px) {
+  .courses-container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .courses-container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-container {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .courses-section .course .course-info .course-copy {
+    width: 560px;
+  }
+}
+
+@media (max-width: 992px) {
+  .courses-section .course .course-info .course-heading {
+    font-size: 26px;
+  }
+
+  .courses-section .course .course-info .course-copy {
+    width: 330px;
+  }
+}
+
+@media (max-width: 768px) {
+  .courses-section .course {
+    flex-wrap: wrap;
+    height: 351px;
+  }
+
+  .courses-section .course .course-thumbnail {
+    display: block;
+    width: 100%;
+    height: 160px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .courses-section .course .course-info {
+    width: 100%;
+  }
+
+  .courses-section .course .course-info .course-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+  }
+
+  .courses-section .course .course-info .course-copy {
+    display: none;
+  }
+
+  .courses-section .course .course-info .get-course-btn {
+    display: block;
+    min-width: 100%;
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 400px) {
+  .courses-section .course {
+    padding: 20px;
+  }
+}
+
+/* RESPONSIVE COURSES PAGE FINISH */

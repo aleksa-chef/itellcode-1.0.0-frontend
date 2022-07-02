@@ -1,0 +1,180 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* SERVICES PAGE */
+.services-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.services-section {
+  margin-top: 93px;
+  margin-bottom: 30px;
+  background-color: #0d0d0d;
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+}
+
+.services-section .heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.services-section .horizontal-line {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #00a9ff;
+  margin-bottom: 80px;
+}
+
+.services-section .service {
+  margin-bottom: 130px;
+}
+
+.services-section .service:last-child {
+  margin-bottom: 0;
+}
+
+.services-section .service .img-holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.services-section .service .img-holder img {
+  width: 340px;
+}
+
+.services-section .service .sub-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.services-section .service .copy {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.services-section .service .link-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.services-section .service .link-holder .order-btn {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d0d0d;
+  background-color: #00a9ff;
+  padding: 13px 48px;
+  border: 1px solid #00a9ff;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.services-section .service .link-holder .order-btn:hover {
+  color: #00a9ff;
+  background-color: transparent;
+}
+
+/* SERVICES PAGE FINISH */
+
+/* RESPONSIVE SERVICES PAGE */
+@media (max-width: 1200px) {
+  .services-container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .services-container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-container {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-section .service .link-holder {
+    display: block;
+    width: 100%;
+  }
+
+  .services-section .service .link-holder .order-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .services-section {
+    padding: 20px;
+  }
+
+  .services-section .service {
+    display: block;
+    width: 100%;
+  }
+
+  .services-section .service .img-holder {
+    max-width: 100%;
+  }
+
+  .services-section .service .img-holder img {
+    max-width: 100%;
+  }
+
+  .services-section .service .link-holder .order-btn {
+    font-size: 26px;
+  }
+}
+
+/* RESPONSIVE SERVICES PAGE FINISH */

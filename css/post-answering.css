@@ -1,0 +1,181 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* POST ANSWERING PAGE */
+.post-answering-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.post-answering-form-container {
+    margin-top: 100px;
+    margin-bottom: 47px;
+    background-color: #0D0D0D;
+    padding: 40px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.post-answering-form-container .post-answering-form h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.post-answering-form-container .post-answering-form .post-heading {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.post-answering-form-container .post-answering-form .horizontal-line {
+    background-color: #3F3F3F;
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.post-answering-form-container .post-answering-form .input-answer {
+    margin-bottom: 30px;
+}
+
+.post-answering-form-container .post-answering-form .input-answer label {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.post-answering-form-container .post-answering-form .input-answer textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-color: #0D0D0D;
+    border: 1px solid #00A9FF;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.3), inset 5px 5px 20px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.post-answering-form-container .post-answering-form .input-answer .word-counter-answer {
+    font-size: 17px;
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.post-answering-form-container .post-answering-form .input-answer textarea:focus {
+    outline: none;
+}
+
+.post-answering-form-container .post-answering-form .input-captcha-code {
+    margin-bottom: 40px;
+    position: relative;
+    letter-spacing: 3px;
+}
+
+.post-answering-form-container .post-answering-form .input-captcha-code label {
+    font-size: 24px;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+
+.post-answering-form-container .post-answering-form .btn-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.post-answering-form-container .post-answering-form .btn-holder .answer-btn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 48px;
+    color: #0D0D0D;
+    background-color: #00A9FF;
+    border: 1px solid #00A9FF;
+    border-radius: 100px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+}
+
+.post-answering-form-container .post-answering-form .btn-holder .answer-btn:hover {
+    color: #00A9FF;
+    background-color: transparent;
+}
+
+/* POST ANSWERING FINISH */
+
+/* RESPONSIVE POST ANSWERING PAGE */
+@media (max-width: 992px) {
+    .post-answering-container {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 768px) {
+    .post-answering-container {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .post-answering-form-container .post-answering-form .btn-holder .answer-btn {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .post-answering-form-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* RESPONSIVE POST ANSWERING FINISH */

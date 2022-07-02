@@ -1,0 +1,169 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* CHANGE USER PICTURE PAGE */
+.change-picture-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.change-picture-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: #0d0d0d;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.change-picture-section .change-picture-form .heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.change-picture-section .change-picture-form .horizontal-line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #3f3f3f;
+    margin-bottom: 20px;
+}
+
+.change-picture-section .change-picture-form .img-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.change-picture-section .change-picture-form .img-holder .img-display {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.change-picture-section .change-picture-form .input-link-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.change-picture-section .change-picture-form .input-link-holder label {
+    font-size: 24px;
+    font-weight: 500;
+    color: #00a9ff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.change-picture-section .change-picture-form .input-link-holder label:hover {
+    text-decoration: none;
+}
+
+.change-picture-section .change-picture-form .input-link-holder input {
+    display: none;
+}
+
+.change-picture-section .change-picture-form .btn-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.change-picture-section .change-picture-form .btn-holder .save-btn {
+    outline: none;
+    color: #0d0d0d;
+    background-color: #00a9ff;
+    border: 1px solid #00a9ff;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 48px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+}
+
+.change-picture-section .change-picture-form .btn-holder .save-btn:hover {
+    background-color: transparent;
+    color: #00a9ff;
+}
+
+.change-picture-section .change-picture-form .without-profile-picture {
+    font-size: 24px;
+    font-weight: 500;
+    color: #d30000;
+    text-decoration: underline;
+}
+
+.change-picture-section .change-picture-form .without-profile-picture:hover {
+    text-decoration: none;
+}
+
+/* CHANGE USER PICTURE PAGE FINISH */
+
+/* CHANGE USER PICTURE PAGE */
+@media (max-width: 992px) {
+    .change-picture-container {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 768px) {
+    .change-picture-container {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .change-picture-section .change-picture-form .btn-holder .save-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .change-picture-section {
+        padding: 20px 10px;
+    }
+}
+
+/* CHANGE USER PICTURE PAGE FINISH*/

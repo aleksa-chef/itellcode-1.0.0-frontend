@@ -1,0 +1,188 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* TERMS OF USE SECTION PAGE */
+.terms-of-use-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.terms-of-use-section {
+  background-color: #0d0d0d;
+  padding: 30px 40px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.terms-of-use-section .img-holder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.terms-of-use-section .img-holder .logo {
+  width: 145px;
+}
+
+.terms-of-use-section h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.terms-of-use-section h3 {
+  color: #00a9ff;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.terms-of-use-section .copy {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.terms-of-use-section .copy:last-of-type {
+  margin-bottom: 30px;
+}
+
+.terms-of-use-section .copy a {
+  color: #fff;
+}
+
+.terms-of-use-section .copy a:hover {
+  text-decoration: none;
+}
+
+.terms-of-use-section .term {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.terms-of-use-section .term-mb-40px {
+  margin-bottom: 30px;
+}
+
+.terms-of-use-section .link-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.terms-of-use-section .link-holder .agree-btn {
+  text-align: center;
+  color: #0d0d0d;
+  font-size: 20px;
+  font-weight: 700;
+  display: inline-block;
+  background-color: #00a9ff;
+  padding: 13px 48px;
+  border: 1px solid #00a9ff;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.terms-of-use-section .link-holder .agree-btn:hover {
+  background-color: transparent;
+  color: #00a9ff;
+}
+
+/* TERMS OF USE SECTION FINISH */
+
+/* RESPONSIVE TERMS OF USE SECTION PAGE */
+@media (max-width: 1200px) {
+  .terms-of-use-container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .terms-of-use-container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .terms-of-use-container {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .terms-of-use-section .copy {
+    font-size: 16px;
+  }
+
+  .terms-of-use-section .term {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .terms-of-use-section .link-holder {
+    width: 100%;
+    display: block;
+  }
+
+  .terms-of-use-section .link-holder .agree-btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .terms-of-use-section {
+    padding: 20px;
+  }
+
+  .terms-of-use-section h1 {
+    font-size: 26px;
+  }
+
+  .terms-of-use-section h3 {
+    font-size: 20px;
+  }
+
+  .terms-of-use-section .link-holder .agree-btn {
+    font-size: 26px;
+  }
+}
+
+/* RESPONSIVE TERMS OF USE SECTION PAGE FINISH */

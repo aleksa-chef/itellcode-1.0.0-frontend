@@ -1,0 +1,162 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* SITE RULES PAGE */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.site-rules-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.site-rules-section {
+    padding: 60px 40px;
+    background-color: #0d0d0d;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.site-rules-section .img-holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.site-rules-section .img-holder .logo {
+    width: 145px;
+}
+
+.site-rules-section h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.site-rules-section h3 {
+    color: #00a9ff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.site-rules-section .rule {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.site-rules-section .link-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.site-rules-section .link-holder .agree-btn {
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0d0d0d;
+    background-color: #00a9ff;
+    border: 1px solid #00a9ff;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 13px 48px;
+    transition: 0.2s;
+}
+
+.site-rules-section .link-holder .agree-btn:hover {
+    color: #00a9ff;
+    background-color: transparent;
+}
+
+/* SITE RULES PAGE FINISH */
+
+/* RESPONSIVE SITE RULES PAGE */
+@media (max-width: 1200px) {
+    .site-rules-container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .site-rules-container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-rules-container {
+        max-inline-size: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .site-rules-section .rule {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .site-rules-section .link-holder {
+        display: block;
+        width: 100%;
+    }
+
+    .site-rules-section .link-holder .agree-btn {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .site-rules-section {
+        padding: 60px 20px;
+    }
+
+    .site-rules-section h1 {
+        font-size: 26px;
+    }
+
+    .site-rules-section h3 {
+        font-size: 20px;
+    }
+
+    .site-rules-section .link-holder .agree-btn {
+        font-size: 26px;
+    }
+}
+
+/* RESPONSIVE SITE RULES PAGE */

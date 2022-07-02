@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aleksa Milanovic">
+    <link rel="icon" type="image/x-icon" href="css/images/favicon-48px.png">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/change-picture.css">
+    <link rel="stylesheet" href="css/ads.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script defer src="js/navbar.js"></script>
+    <script defer src="js/changePicture.js"></script>
+    <title>Itellcode | Menjanje profilne slike</title>
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header>
+        <div class="row-default">
+            <div class="logo-section">
+                <img src="css/images/header-logo.png" class="logo">
+                <a href="all-posts.html"><img src="css/images/header-text-logo.png" class="text-logo"></a>
+            </div>
+
+            <ul class="link-list">
+                <li><a href="add-post.html" class="add-post-btn">Dodaj post</a></li>
+                <li><a href="update-account.html" class="default-link">Profil</a></li>
+                <li><a href="index.html" class="sign-out-btn">Odjava</a></li>
+            </ul>
+
+            <img src="css/images/hamburger.png" class="hamburger-btn">
+        </div>
+    </header>
+
+    <!-- SUB-HEADER START -->
+    <div class="sub-header">
+        <div class="header-container">
+            <div class="row-default">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="all-posts.html">Početna</a></li>
+                        <li><a href="about-us.html">O nama</a></li>
+                        <li><a href="sponsors.html">Sponzori</a></li>
+                        <li><a href="courses.html">Kursevi</a></li>
+                        <li><a href="services.html">Usluge</a></li>
+                    </ul>
+                </nav>
+
+                <form action="" class="search-bar">
+                    <input type="search" placeholder="Pretraži postove...">
+                    <button type="submit" class="search-btn"><img src="css/images/search-icon-black.png"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- SUB-HEADER FINISH -->
+
+    <!-- HAMBURGER MENU START -->
+    <div class="hamburger-menu">
+        <a href="add-post.html" class="menu-add-post-btn">Dodaj post</a>
+        <a href="update-account.html" class="menu-default-link">Profil</a>
+        <a href="all-posts.html">Početna</a>
+        <a href="about-us.html">O nama</a>
+        <a href="sponsors.html">Sponzori</a>
+        <a href="#\" class="forums-btn">Forumi</a>
+        <div class="forums-menu">
+            <a href="#">Hakiranje</a>
+            <a href="#">Web razvoj</a>
+            <a href="#">Software razvoj</a>
+            <a href="#">AI</a>
+            <a href="#">DevOps</a>
+        </div>
+
+        <a href="courses.html">Kursevi</a>
+        <a href="services.html">Usluge</a>
+        <a href="index.html" class="menu-sign-out-btn">Odjava</a>
+    </div>
+    <!-- HAMBURGER MENU FINISH -->
+    <!-- HEADER FINISH -->
+
+    <!-- CHANGE PICTURE SECTION START -->
+    <div class="change-picture-container">
+        <div class="change-picture-section">
+
+            <!-- CHANGE PICTURE FORM START -->
+            <form action="update-account.html" class="change-picture-form">
+                <h2 class="heading">Profilna slika</h2>
+
+                <hr class="horizontal-line">
+
+                <div class="img-holder">
+                    <img src="css/images/user-icon.png" class="img-display">
+                </div>
+
+                <div class="input-link-holder">
+                    <label for="chooseImage">Odaberi sliku</label>
+                    <input type="file" id="chooseImage">
+                </div>
+
+                <div class="btn-holder">
+                    <button class="save-btn" type="submit">Sačuvaj</button>
+                </div>
+
+                <a href="#" class="without-profile-picture">Bez profilne slike</a>
+            </form>
+            <!-- CHANGE PICTURE FORM FINISH -->
+
+        </div>
+    </div>
+    <!-- CHANGE PICTURE SECTION FINISH -->
+
+    <!-- AD SECTION START -->
+    <div class="ad-container">
+        <a href="#" class="ad-link">
+            <div class="ad"></div>
+        </a>
+    </div>
+    <!-- AD SECTION FINISH -->
+
+    <!-- FOOTER START -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row-phone">
+                <a href="#" class="logo-link"><img src="css/images/footer-logo.png" class="footer-logo"></a>
+                <div class="footer-menu">
+                    <h4>InterCore</h4>
+
+                    <ul>
+                        <li><a href="all-posts.html">Početna</a></li>
+                        <li><a href="about-us.html">O nama</a></li>
+                        <li><a href="courses.html">Kursevi</a></li>
+                        <li><a href="services.html">Usluge</a></li>
+                        <li><a href="terms-of-use.html">Uslovi korišćenja</a></li>
+                        <li><a href="privacy-policy.html">Pravila privatnosti</a></li>
+                        <li><a href="site-rules.html">Pravila na sajtu</a></li>
+                        <li><a href="admin-login.html">Administracija</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu">
+                    <h4>Sponzori</h4>
+
+                    <ul>
+                        <li><a href="https://discord.gg/RqEDJRhdwH" target="_blank">Bane</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-menu">
+                    <h4>Kontakt</h4>
+
+                    <ul>
+                        <li><a href="mailto:itellcode.forum@gmail.com">itellcode.forum@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <hr class="horizontal-line">
+
+            <div class="copyright">© 2022 InterCore. Sva prava zadržana</div>
+            <p class="web-site-ver">Verzija: 1.0.0</p>
+        </div>
+    </footer>
+    <!-- FOOTER FINISH -->
+</body>
+
+</html>

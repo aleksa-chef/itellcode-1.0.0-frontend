@@ -1,0 +1,294 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* WELCOME PAGE */
+#welcome-page-container {
+  background-color: #00a9ff;
+  color: #0d0d0d;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.index-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row-phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-header a .index-logo {
+  width: 247px;
+  margin-top: 40px;
+}
+
+.index-header .site-rules-btn {
+  font-size: 18px;
+  font-weight: 700;
+  color: #00a9ff;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  margin-top: 40px;
+  transition: 0.2s;
+}
+
+.index-header .site-rules-btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.hero-section .index-copy {
+  margin-top: 137px;
+}
+
+.hero-section .index-copy h1 {
+  font-family: "Titan One", cursive;
+  color: #0d0d0d;
+  font-size: 51px;
+  margin-bottom: 10px;
+  width: 488px;
+}
+
+.hero-section .index-copy p {
+  color: #0d0d0d;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 506px;
+}
+
+.hero-section .index-copy .btns-holder {
+  display: flex;
+}
+
+.hero-section .index-copy .btns-holder .register-btn {
+  text-decoration: none;
+  color: #00a9ff;
+  background-color: #0d0d0d;
+  border: 1px solid #0d0d0d;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 20px;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: 0.2s;
+}
+
+.hero-section .index-copy .btns-holder .register-btn:hover {
+  color: #0d0d0d;
+  background-color: transparent;
+}
+
+.hero-section .index-copy .btns-holder .login-btn {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #00a9ff;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 10px 20px;
+  transition: 0.2s;
+}
+
+.hero-section .index-copy .btns-holder .login-btn:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.hero-section .img-holder {
+  max-width: 593px;
+  margin-top: 37px;
+  margin-bottom: -8px;
+}
+
+.hero-section .img-holder img {
+  max-width: 100%;
+}
+
+/* WELCOME PAGE  FINISH */
+
+/* RESPONSIVE WELCOME PAGE */
+@media (max-width: 1200px) {
+  .index-container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .index-container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-container {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row-phone {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-section .index-copy h1 {
+    width: 476px;
+  }
+
+  .hero-section .index-copy p {
+    width: 457px;
+  }
+
+  .hero-section .img-holder {
+    max-width: 480px;
+    margin-top: 82px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-section .index-copy {
+    margin-top: 43px;
+  }
+
+  .hero-section .index-copy h1 {
+    font-size: 44px;
+    width: 416px;
+  }
+
+  .hero-section .index-copy p {
+    width: 397px;
+  }
+
+  .hero-section .img-holder {
+    max-width: 286px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section .index-copy {
+    display: block;
+    max-width: 100%;
+    margin-top: 60px;
+  }
+
+  .hero-section .index-copy h1 {
+    font-size: 39px;
+    width: 352px;
+  }
+
+  .hero-section .index-copy p {
+    width: 100%;
+  }
+
+  .hero-section .index-copy .btns-holder {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .hero-section .index-copy .btns-holder .register-btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .hero-section .index-copy .btns-holder .login-btn {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-section .img-holder {
+    max-width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .index-header a .index-logo {
+    width: 150px;
+  }
+
+  .index-header .site-rules-btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .index-header a .index-logo {
+    width: 130px;
+  }
+
+  .index-header .site-rules-btn {
+    font-size: 13px;
+  }
+
+  .hero-section .index-copy h1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .index-header a .index-logo {
+    width: 100px;
+    margin-top: 10%;
+  }
+
+  .hero-section .index-copy h1 {
+    width: 100%;
+    text-align: left;
+    font-size: larger;
+  }
+
+  .hero-section .index-copy .btns-holder .register-btn,
+  .login-btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/* RESPONSIVE WELCOME PAGE FINISH */

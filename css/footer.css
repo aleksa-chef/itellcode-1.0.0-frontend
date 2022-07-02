@@ -1,0 +1,200 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBALS FINISH */
+
+/* FOOTER */
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row-phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #0d0d0d;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer a {
+    height: 43px;
+}
+
+.footer a .footer-logo {
+    width: 247px;
+}
+
+.footer .footer-menu h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #00a9ff;
+}
+
+.footer .footer-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer .footer-menu ul li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-menu ul li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #a4a4a4;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footer .footer-menu ul li a:hover {
+    color: #fff;
+}
+
+.footer .footer-menu ul li .active {
+    color: #fff;
+}
+
+.footer .footer-menu ul li .email {
+    color: #fff;
+}
+
+.footer .footer-menu ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer .horizontal-line {
+    max-width: 100%;
+    height: 1px;
+    background-color: #3f3f3f;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    opacity: 0.5;
+}
+
+.footer .copyright {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .web-site-ver {
+    color: gray;
+    text-align: center;
+    margin-top: 3%;
+}
+
+/* FOOTER FINISH */
+
+/* RESPONSIVE FOOTER */
+@media (max-width: 1200px) {
+    .footer-container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer-container {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .row-phone {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer a .footer-logo {
+        width: 150px;
+    }
+
+    .footer .copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .logo-link {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .footer .logo-link .footer-logo {
+        width: 340px;
+    }
+
+    .footer .footer-menu {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .footer .footer-menu:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer .footer-menu h4 {
+        font-size: 24px;
+    }
+
+    .footer .footer-menu ul li a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer .logo-link .footer-logo {
+        width: 250px;
+    }
+
+    .footer .footer-menu h4 {
+        font-size: 20px;
+    }
+
+    .footer .footer-menu ul li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    .footer .logo-link .footer-logo {
+        width: 100%;
+    }
+
+    .footer .footer-menu h4 {
+        font-size: 17px;
+    }
+
+    .footer .footer-menu ul li a {
+        font-size: 15px;
+    }
+}
+
+/* RESPONSIVE FOOTER FINISH */

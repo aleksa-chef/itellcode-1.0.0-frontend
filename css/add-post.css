@@ -1,0 +1,227 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* ADD POST PAGE */
+.adding-post-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.adding-post-form-container {
+    margin-top: 100px;
+    margin-bottom: 47px;
+    background-color: #0d0d0d;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.adding-post-form-container .adding-post-form .heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.adding-post-form-container .adding-post-form .horizontal-line {
+    width: 100%;
+    height: 1px;
+    background-color: #3f3f3f;
+    margin-bottom: 20px;
+}
+
+.adding-post-form-container .adding-post-form .forum-type .choose-forum-label {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.adding-post-form-container .adding-post-form .forum-type .choose-post-type {
+    background-color: #0d0d0d;
+    border: 1px solid #00a9ff;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 30px;
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.3),
+        inset 5px 5px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+.adding-post-form-container .adding-post-form .post-heading {
+    margin-bottom: 30px;
+}
+
+.adding-post-form-container .adding-post-form .post-heading label {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.adding-post-form-container .adding-post-form .post-heading input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: #0d0d0d;
+    border: 1px solid #00a9ff;
+    border-radius: 10px;
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.3),
+        inset 5px 5px 20px rgba(0, 0, 0, 0.3);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.adding-post-form-container .adding-post-form .post-heading input:focus {
+    outline: none;
+}
+
+.adding-post-form-container .adding-post-form .post-heading .word-counter-title {
+    font-size: 17px;
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.adding-post-form-container .adding-post-form .post-content {
+    margin-bottom: 40px;
+}
+
+.adding-post-form-container .adding-post-form .post-content label {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.adding-post-form-container .adding-post-form .post-content textarea {
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-color: #0d0d0d;
+    border: 1px solid #00a9ff;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 10px;
+    padding: 10px;
+    padding-top: 10px;
+    box-shadow: inset -5px -5px 20px rgba(0, 0, 0, 0.3),
+        inset 5px 5px 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.adding-post-form-container .adding-post-form .post-content textarea:focus {
+    outline: none;
+}
+
+.adding-post-form-container .adding-post-form .post-content .word-counter-content {
+    font-size: 17px;
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.adding-post-form-container .adding-post-form .btn-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.adding-post-form-container .adding-post-form .btn-holder .publish-btn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 13px 48px;
+    background-color: #00a9ff;
+    border-radius: 100px;
+    color: #0d0d0d;
+    border: 1px solid #00a9ff;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    transition: 0.2s;
+}
+
+.adding-post-form-container .adding-post-form .btn-holder .publish-btn:hover {
+    background-color: transparent;
+    color: #00a9ff;
+}
+
+/* ADD POST PAGE FINISH */
+
+/* RESPONSIVE ADD POST PAGE */
+@media (max-width: 992px) {
+    .adding-post-container {
+        max-width: 650px;
+    }
+}
+
+@media (max-width: 768px) {
+    .adding-post-container {
+        max-width: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .adding-post-form-container .adding-post-form .btn-holder .publish-btn {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .adding-post-form-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* RESPONSIVE ADD POST PAGE FINISH */

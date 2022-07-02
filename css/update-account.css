@@ -1,0 +1,241 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* UPDATE ACCOUNT PAGE */
+.update-account-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.update-account-form-container {
+  margin-top: 100px;
+  background-color: #0d0d0d;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 130px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.update-account-form-container .update-account-form .heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.update-account-form-container .update-account-form .horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: #3f3f3f;
+  margin-bottom: 20px;
+}
+
+.update-account-form-container .update-account-form .input-update {
+  margin-bottom: 30px;
+}
+
+.update-account-form-container .update-account-form .input-update label {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.update-account-form-container .update-account-form .input-update input {
+  display: block;
+  width: 100%;
+  height: 44px;
+  background-color: #0d0d0d;
+  border: 1px solid #00a9ff;
+  border-radius: 10px;
+  box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3),
+    inset 5px 5px 20px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.update-account-form-container
+  .update-account-form
+  .input-update
+  input::placeholder {
+  color: #707070;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.update-account-form-container .update-account-form .input-update input:focus {
+  outline: none;
+}
+
+.update-account-form-container .update-account-form .input-text-update {
+  margin-bottom: 30px;
+}
+
+.update-account-form-container .update-account-form .input-text-update label {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.update-account-form-container
+  .update-account-form
+  .input-text-update
+  textarea {
+  width: 100%;
+  height: 150px;
+  background-color: #0d0d0d;
+  border: 1px solid #00a9ff;
+  border-radius: 10px;
+  box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.3),
+    inset 5px 5px 20px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: block;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.update-account-form-container
+  .update-account-form
+  .input-text-update
+  textarea:focus {
+  outline: none;
+}
+
+.update-account-form-container .update-account-form .change-picture-link {
+  font-size: 22px;
+  font-weight: 500;
+  color: #00a9ff;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.update-account-form-container .update-account-form .change-picture-link:hover {
+  text-decoration: none;
+}
+
+.update-account-form-container .update-account-form .btn-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.update-account-form-container .update-account-form .btn-holder .save-btn {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 13px 48px;
+  background-color: #00a9ff;
+  outline: none;
+  border: 1px solid #00a9ff;
+  color: #0d0d0d;
+  border-radius: 100px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: 0.2s;
+}
+
+.update-account-form-container
+  .update-account-form
+  .btn-holder
+  .save-btn:hover {
+  background-color: transparent;
+  color: #00a9ff;
+}
+
+.update-account-form-container .link-holder {
+  display: flex;
+  justify-content: center;
+}
+
+.update-account-form-container .link-holder .delete-account-link {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: #d30000;
+}
+
+.update-account-form-container .link-holder .delete-account-link:hover {
+  text-decoration: none;
+}
+
+.update-account-form-container .link-holder .delete-account-link .warn-icon {
+  width: 24px;
+  margin-right: 10px;
+}
+
+/* UPDATE ACCOUNT PAGE FINISH */
+
+/* RESPONSIVE UPDATE ACCOUNT PAGE */
+@media (max-width: 992px) {
+  .update-account-container {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 768px) {
+  .update-account-container {
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .update-account-form-container .update-account-form .btn-holder .save-btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .update-account-form-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* RESPONSIVE UPDATE ACCOUNT PAGE FINSIH */

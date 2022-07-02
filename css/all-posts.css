@@ -1,0 +1,400 @@
+/* GLOBALS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Titan+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* GLOBALS FINISH */
+
+/* ALL POSTS PAGE */
+.home-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row-phone {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section {
+  margin-top: 63px;
+  padding-top: 30px;
+}
+
+.main-section .posts-section {
+  width: 749px;
+  margin-bottom: 30px;
+}
+
+.main-section .posts-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #262626;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+}
+
+.main-section .posts-section .posts-container .post {
+  margin-top: 30px;
+  padding: 30px;
+  background-color: #262626;
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+}
+
+.post .user-profile .user-picture {
+  border-radius: 50%;
+}
+
+.main-section .posts-section .posts-container .post .user-profile {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.main-section .posts-section .posts-container .post .user-profile a .user-picture {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.main-section .posts-section .posts-container .post .user-profile .user-text {
+  padding-top: 7px;
+}
+
+.main-section .posts-section .posts-container .post .user-profile .user-text .user-name {
+  font-size: 22px;
+  font-weight: 700;
+  margin-right: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.main-section .posts-section .posts-container .post .user-profile .user-text .user-role {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00a9ff;
+}
+
+.main-section .posts-section .posts-container .post .user-profile .user-text .post-date {
+  color: #ababab;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-section .posts-section .posts-container .post .horizontal-line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #666666;
+  margin-bottom: 20px;
+}
+
+.main-section .posts-section .posts-container .post .post-heading {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.main-section .posts-section .posts-container .post .link-holder {
+  display: flex;
+  justify-content: end;
+}
+
+.main-section .posts-section .posts-container .post .link-holder .see-more {
+  font-size: 22px;
+  font-weight: 400;
+  color: #00a9ff;
+}
+
+.main-section .posts-section .posts-container .post .link-holder .see-more:hover {
+  text-decoration: none;
+}
+
+.main-section .forums-container {
+  padding: 30px;
+  width: 361px;
+  height: 100%;
+  background-color: #262626;
+  border-radius: 10px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.main-section .forums-container h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.main-section .forums-container .horizontal-line {
+  background-color: #666666;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 20px;
+}
+
+.main-section .forums-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.main-section .forums-container ul li {
+  margin-bottom: 20px;
+}
+
+.main-section .forums-container ul li:last-child {
+  margin-bottom: 0;
+}
+
+.main-section .forums-container ul li a {
+  color: #9c9c9c;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.main-section .forums-container ul li a:hover {
+  color: #fff;
+}
+
+.main-section .forums-container ul li .active {
+  color: #fff;
+}
+
+/* ALL POSTS FINISH */
+
+/* RESPONSIVE ALL POSTS PAGE */
+@media (max-width: 1200px) {
+  .home-container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .home-container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .row-phone {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-section .posts-section {
+    width: 569px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-section .posts-section {
+    width: 402px;
+  }
+
+  .main-section .posts-section h2 {
+    font-size: 16px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile {
+    margin-bottom: 15px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile a .user-picture {
+    width: 60px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text {
+    margin-top: -4px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .user-name {
+    font-size: 16px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .user-role {
+    font-size: 14px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .post-date {
+    font-size: 14px;
+  }
+
+  .main-section .posts-section .posts-container .post .horizontal-line {
+    margin-bottom: 15px;
+  }
+
+  .main-section .posts-section .posts-container .post .post-heading {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .main-section .posts-section .posts-container .post .link-holder .see-more {
+    font-size: 16px;
+  }
+
+  .main-section .forums-container {
+    width: 287px;
+  }
+
+  .main-section .forums-container h3 {
+    font-size: 22px;
+  }
+
+  .main-section .forums-container ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-section .posts-section {
+    width: 100%;
+  }
+
+  .main-section .posts-section h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .main-section .posts-section .posts-container {
+    width: 100%;
+  }
+
+  .main-section .posts-section .posts-container .post {
+    width: 100%;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile {
+    margin-bottom: 20px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-picture {
+    width: 80px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text {
+    margin-top: -13px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .user-name {
+    font-size: 22px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .user-role {
+    font-size: 16px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .post-date {
+    font-size: 18px;
+  }
+
+  .main-section .posts-section .posts-container .post .horizontal-line {
+    margin-bottom: 20px;
+  }
+
+  .main-section .posts-section .posts-container .post .post-heading {
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  .main-section .posts-section .posts-container .post .link-holder .see-more {
+    font-size: 22px;
+  }
+
+  .main-section .forums-container {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .main-section .posts-section h2 {
+    font-size: 16px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile {
+    margin-bottom: 15px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-picture {
+    width: 60px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text {
+    margin-top: -5px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .user-name {
+    font-size: 16px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .user-role {
+    font-size: 14px;
+  }
+
+  .main-section .posts-section .posts-container .post .user-profile .user-text .post-date {
+    font-size: 14px;
+  }
+
+  .main-section .posts-section .posts-container .post .horizontal-line {
+    margin-bottom: 15px;
+  }
+
+  .main-section .posts-section .posts-container .post .post-heading {
+    font-size: 20px;
+  }
+
+  .main-section .posts-section .posts-container .post .link-holder .see-more {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 343px) {
+  .main-section .posts-section .posts-container .post .user-profile .user-text .user-name {
+    margin: 0;
+  }
+}
+
+/* RESPONSIVE ALL POSTS PAGE FINISH */
